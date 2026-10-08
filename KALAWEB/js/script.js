@@ -103,19 +103,6 @@ const productData = {
         metodosAplicacion: ['Aspersión de baja presión sobre zócalos, grietas, hendiduras, marcos y perímetros.'],
         recomendaciones: ['Usar equipo de protección personal durante la preparación y aplicación.', 'Evitar contacto con alimentos y utensilios.', 'Mantener niños y mascotas fuera del área hasta el secado completo.']
     }
-    ,
-    'ZAPI KELTHOX 2.5 RB': {
-        ingredientes: 'Ingrediente activo: Imidacloprid 2.15% p/p; Coformulantes: 97.85% p/p',
-        recomendacion: 'Insecticida en gel para control localizado de cucarachas y otros insectos rastreros; aplicar en zonas de tránsito y refugio.',
-        dosis: 'Aplicar pequeñas cantidades de gel según indicaciones de la etiqueta en grietas, rendijas y zonas de tránsito. Consultar etiqueta para número de puntos y frecuencia.',
-        beneficios: ['Alta eficacia contra cucarachas y otros insectos rastreros.', 'Actúa por contacto e ingestión.', 'Formulación en gel para aplicación localizada y segura.', 'Acción prolongada y residual.', 'Ideal para uso profesional en programas de manejo de plagas urbanas.'],
-        modoAccion: 'El Imidacloprid actúa sobre los receptores nicotínicos de acetilcolina en el sistema nervioso de los insectos, provocando una excitación continua que causa parálisis y muerte. Su formulación en gel permite una aplicación precisa y liberación controlada del ingrediente activo.',
-        controla: ['Cucarachas (Blattella germanica, Periplaneta americana)', 'Hormigas', 'Otros insectos rastreros'],
-        usosRecomendados: ['Viviendas y cocinas', 'Restaurantes y hoteles', 'Oficinas y bodegas', 'Instalaciones industriales y comerciales'],
-        formulacion: 'RB – Gel insecticida',
-        ingredienteActivo: 'Imidacloprid 2.15% p/p',
-        recomendaciones: 'Producto de uso profesional. Mantener fuera del alcance de niños y animales domésticos. Evitar el contacto directo con piel y ojos. No aplicar sobre alimentos ni utensilios. Leer cuidadosamente la etiqueta antes de usar.'
-    }
 };
 
 const technicalSheets = {
@@ -133,8 +120,8 @@ const technicalSheets = {
     'Cebadero Plástico para Roedores': 'cebadero-ficha.html',
     'Cebadero Tubular para Roedores': 'cebadero-tubular-ficha.html'
     ,
-    'ZAPI IXIN KIDA IMIDACLOPRID 21.5 RB': 'zapi-ixin-ficha.html',
-    'ZAPI KELTHOX 2.5 RB': 'zapi-kelthox-ficha.html'
+    'ZAPI KELT FLUOGEL 2.15 RB': 'zapi-kelt-fluogel-ficha.html',
+    'ZAPI DX3 GEL 0.0204 RB': 'zapi-dx3-gel-ficha.html'
 };
 
 if (productButtons.length > 0 && productModal) {
